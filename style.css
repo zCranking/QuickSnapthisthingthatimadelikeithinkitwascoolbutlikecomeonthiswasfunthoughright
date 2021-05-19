@@ -1,0 +1,54 @@
+body{
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fill;
+  background: url("rect835.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: auto;
+  color: white;
+}
+#start-btn
+{
+    width: 30%;
+} 
+#camera
+{
+    width:360px;
+    height: 250px;
+    border:1px solid grey;
+}
+#logo_img
+{
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox
+{
+    width: 300px;
+}
+#login_button
+{
+	width: 60%;border-radius: 15px;
+	font-family: 'Roboto', sans-serif;
+  	font-size: 40px;
+  	text-transform: uppercase;
+  	letter-spacing: 2.5px;
+  	font-weight: 500;
+    border: none;
+  	border-radius: 45px;
+  	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  	transition: all 1.5s ease 0.1s;
+  	cursor: pointer;
+      outline: none;
+    background-color: rgb(42, 76, 231);
+    color: rgb(255, 254, 253);
+}
+#login_button:hover{
+  background-color: #3bf544;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}

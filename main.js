@@ -1,8 +1,10 @@
 var APIthingy = window.webkitSpeechRecognition;
 var newLittleHuman = new APIthingy();
+function start(){
     document.getElementById("textbox").innerHTML = "";
     newLittleHuman.start();
 };
+
 newLittleHuman.onresult = function(event){
     console.log(event);
     var content = event.results[0][0].transcript;
